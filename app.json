@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "dice-roller",
+    "owner": "umerjutt00",
     "slug": "dice-roller",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -19,10 +20,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.umerjutt00.diceroller"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e912aa05-0b95-47d6-bf31-240b2f918bd8"
+      }
     }
   }
 }
